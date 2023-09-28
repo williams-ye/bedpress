@@ -117,10 +117,20 @@ Denne meldigen blir returnert når meldingen ikke inneholder noen verdi for "nam
 - Gå til resources også velg riktig FunctionApp og høyreklikk på klassen under mappen "Functions". Og klikk Execute function nå.
 - Erstatt Azure med kommandoen du vil utføre, i pop-up boksen som kommer opp.
 
-Du kan også kjøre den direkte i nettleser eller Postman med å gå den riktige URLen. URLen finner du i portal.azure.com -> Function App, men er som oftest formatert slik:
-
+Du kan også kjøre den direkte i nettleser eller Postman med å gå den riktige URLen.  
+URLen finner du slik:
+- Gå til portal.azure.com
+- Klikk på Function App (Søk i feltet øverst hvis du ikke finner det)
+- Klikk på FunctionAppen navnet du lagde istad
+- Under Overview vil det være listet opp funksjonen du nettop deployet, klikk på den
+- Klikk på "Get function URL" knappen og kopier lenken
+- Lim den inn i nettleseren og legg til name og kommando på slutten og trykk enter. Som eksempel under
 ```
-https://{NavnetDuGaFunctionAppenDin}.azurewebsites.net/api/HttpTrigger?name={Kommando}
+name=mynt
+```
+Vanligvis er URLen formatert slik:
+```
+https://{NavnetDuGaFunctionAppenDin}.azurewebsites.net/api/{NavnetPåFunksjonenDin}?name={Kommando}
 ```
 Hvor du erstatter verdiene i krøll-parentesene med dine egne verdier.
 
