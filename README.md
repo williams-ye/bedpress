@@ -132,8 +132,8 @@ Vanligvis er URLen formatert slik:
 ```
 https://{NavnetDuGaFunctionAppenDin}.azurewebsites.net/api/{NavnetPåFunksjonenDin}?name={Kommando}
 ```
-Hvor du erstatter verdiene i krøll-parentesene med dine egne verdier.
-**For å kjøre funksjonen din på mobil, så må du bruke URLen.**
+Hvor du erstatter verdiene i krøll-parentesene med dine egne verdier.  
+**NB! For å kjøre funksjonen din på mobil, så må du bruke URLen.**
 
 ## Videre utvikling
 Nå kan du videreutvikle programmet akkurat hvordan du vil!  
