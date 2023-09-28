@@ -6,11 +6,12 @@ I dette prosjektet skal du lage en liste over mulige utfall i et valg, også ska
 Dette skal også med Azure functions slik at du alltid vil ha mulighet til å spørre "skyen" om hva du burde velge.
 
 ## Hvordan komme igang
-### Følg guiden under
+### Følg guiden i lenken under
 https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/5-create-function-visual-studio-code  
-NB! Hvis du får problemer med at VSCode ikke gjenkjenner Microsoft pakkene etter å ha installert alt, prøv å lukke hele VSCode og starte på nytt.
+NB! Hvis du får problemer med at VSCode ikke gjenkjenner Microsoft pakkene etter å ha installert alt, prøv å lukke hele VSCode og starte på nytt.  
+Etter dette kan du begynne med utvidelser!
 
-### Utvidelser
+## Utvidelser
 Koden din vil se ca sånn her ut etter å ha fulgt guiden over: 
 ```
 public static async Task<IActionResult> Run(
