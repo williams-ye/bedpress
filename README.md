@@ -94,8 +94,9 @@ switch(name.ToLower()){
      return new OkObjectResult(pils[index]);                
 }
 ```
-Denne koden kjører basert på hvilken verdi "name" har. Dette er en string som sendes av brukeren. Hvis den har verdien "middag" vil de to linjene under kjøre.
+Denne koden kjører basert på hvilken verdi "name" har. Dette er en string som sendes av brukeren. Hvis den har verdien "middag" vil de 3 linjene under kjøre.
 ``` 
+case "middag":
      index = random.Next(mat.Count);
      return new OkObjectResult(mat[index]);
 ```
