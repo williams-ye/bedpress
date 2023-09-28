@@ -117,7 +117,7 @@ Denne meldigen blir returnert når meldingen ikke inneholder noen verdi for "nam
 - Gå til resources også velg riktig FunctionApp og høyreklikk på klassen under mappen "Functions". Og klikk Execute function nå.
 - Erstatt Azure med kommandoen du vil utføre, i pop-up boksen som kommer opp.
 
-Du kan også kjøre den direkte i nettleser eller Postman med å gå den riktige URLen.  
+Du kan også kjøre den direkte i nettleser eller med Postman med å gå den riktige URLen.  
 URLen finner du slik:
 - Gå til portal.azure.com
 - Klikk på Function App (Søk i feltet øverst hvis du ikke finner det)
@@ -133,6 +133,7 @@ Vanligvis er URLen formatert slik:
 https://{NavnetDuGaFunctionAppenDin}.azurewebsites.net/api/{NavnetPåFunksjonenDin}?name={Kommando}
 ```
 Hvor du erstatter verdiene i krøll-parentesene med dine egne verdier.
+**For å kjøre funksjonen din på mobil, så må du bruke URLen.**
 
 ## Videre utvikling
 Nå kan du videreutvikle programmet akkurat hvordan du vil!  
