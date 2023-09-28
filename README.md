@@ -124,7 +124,7 @@ URLen finner du slik:
 - Klikk på FunctionAppen navnet du lagde istad
 - Under Overview vil det være listet opp funksjonen du nettop deployet, klikk på den
 - Klikk på "Get function URL" knappen og kopier lenken
-- Lim den inn i nettleseren og legg til name og kommando på slutten og trykk enter. Som eksempel under
+- Lim den inn i nettleseren og legg til name og kommando på slutten og trykk enter. Som eksempelet under
 ```
 name=mynt
 ```
