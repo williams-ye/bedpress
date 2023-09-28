@@ -9,6 +9,11 @@ Dette skal også med Azure functions slik at du alltid vil ha mulighet til å sp
 ### Følg guiden i lenken under
 https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/5-create-function-visual-studio-code  
 NB! Hvis du får problemer med at VSCode ikke gjenkjenner Microsoft pakkene etter å ha installert alt, prøv å lukke hele VSCode og starte på nytt.  
+Hvis det fortsatt ikke funker prøv denne kommandoen i terminal(Høyreklikk på mappen også velg "open in integrated terminal"):
+```
+dotnet restore --force-evaluate
+```
+
 Etter dette kan du begynne med utvidelser!
 
 ## Utvidelser
