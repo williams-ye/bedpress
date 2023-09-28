@@ -9,7 +9,6 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System;
-using System.Collections.Generic;
 
 namespace My.Function
 {
