@@ -103,7 +103,7 @@ case "middag":
 Den første linjen genererer en tilfeldig verdi fra 0 til mat.Count verdien. mat.count verdien er antall elementer i listen mat. Fra eksempelet over vil denne verdien være 6.  
 De andre casene vil gjøre det samme. Hvis du har laget en egen liste må du lage en tilsvarende case for det.
 
-Til slutt så legger vi til en default response. Det gjør du ved å legge til denne linjen helt til slutt (Husk å legge den utenfor krøllparentesene i Switchen):
+Til slutt så legger vi til en default response. Fjern først den gamle "return OkObjectResult"  også legg til denne linjen under helt til slutt (Husk å legge den utenfor krøllparentesene i Switchen):
 
 ```
 return new OkObjectResult("Brukbare kommandoer er: middag, gjøre, mynt, pils");
